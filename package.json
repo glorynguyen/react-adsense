@@ -1,5 +1,5 @@
 {
-  "name": "react-adsense",
+  "name": "react-google-adsense",
   "version": "1.0.0",
   "description": "A Simple React component for Google AdSense ads.",
   "main": "src/index.js",

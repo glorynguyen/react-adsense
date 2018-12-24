@@ -2,16 +2,12 @@
 
 > react-adsense is a React-component for Google AdSense / Baidu advertisement.
 
-[![Build Status](https://travis-ci.org/hustcc/react-adsense.svg?branch=master)](https://travis-ci.org/hustcc/react-adsense)
-[![npm](https://img.shields.io/npm/v/react-adsense.svg)](https://www.npmjs.com/package/react-adsense)
-[![npm](https://img.shields.io/npm/dm/react-adsense.svg)](https://www.npmjs.com/package/react-adsense)
-[![npm](https://img.shields.io/npm/l/react-adsense.svg)](https://www.npmjs.com/package/react-adsense)
-[![demo](https://img.shields.io/badge/LiveDemo-ClickHere-ff69b4.svg)](http://git.hust.cc/react-adsense/)
+[![Build Status](https://travis-ci.org/aj-anuragjain/react-adsense.svg?branch=master)](https://travis-ci.org/aj-anuragjain/react-adsense)
 
 
 # 1. Install
 
-> **npm install --save react-adsense**
+> **npm install --save react-google-adsense**
 
 Before use Google AdSense, you should add the `script` at the end of HTML.
 
@@ -73,11 +69,7 @@ import AdSense from 'react-adsense';
    - `responsive`:
 
 
-# 4. TODO
-
- - `Baidu` advertisement supported.
-
 
 # LICENSE
 
-MIT@[hustcc](https://github.com/hustcc).
+MIT@[aj-anuragjain](https://github.com/aj-anuragjain).
