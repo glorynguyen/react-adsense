@@ -1,7 +1,9 @@
+
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default class Google extends React.Component {
+
+class Google extends React.Component {
   componentDidMount() {
     if(window) (window.adsbygoogle = window.adsbygoogle || []).push({});
   };
@@ -9,15 +11,17 @@ export default class Google extends React.Component {
   render() {
     return (
       <ins className={`${this.props.className} adsbygoogle`}
-        style={this.props.style} 
-        data-ad-client={this.props.client} 
+        style={this.props.style}
+        data-ad-client={this.props.client}
         data-ad-slot={this.props.slot}
         data-ad-layout={this.props.layout}
         data-ad-format={this.props.format}
-        data-full-width-responsive={this.props.responsive}></ins>
+        data-full-width-responsive={this.props.responsive}
+      />
     );
   }
 };
+
 
 Google.propTypes = {
   className: PropTypes.string,
@@ -29,6 +33,7 @@ Google.propTypes = {
   responsive: PropTypes.string
 };
 
+
 Google.defaultProps = {
   className: '',
   style: {display: 'block'}, 
@@ -36,3 +41,6 @@ Google.defaultProps = {
   layout: '',
   responsive: 'false'
 };
+
+
+export default Google;

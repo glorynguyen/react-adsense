@@ -1,9 +1,7 @@
-import Google from './google';
-import Baidu from './baidu';
+import Google from './Google';
 
 const AdSense = {
   Google,
-  Baidu
 };
 
 export default AdSense;
