@@ -1,13 +1,13 @@
-# react-adsense
+# react-adsense-ad
 
-> react-adsense is a React-component for Google AdSense / Baidu advertisement.
+> react-adsense-ad is a React-component for Google AdSense advertisement.
 
 [![Build Status](https://travis-ci.org/aj-anuragjain/react-adsense.svg?branch=master)](https://travis-ci.org/aj-anuragjain/react-adsense)
 
 
 # 1. Install
 
-> **npm install --save react-google-adsense**
+> **npm install --save react-adsense-ad**
 
 Before use Google AdSense, you should add the `script` at the end of HTML.
 
@@ -24,22 +24,22 @@ import AdSense from 'react-adsense';
 
 // ads with no set-up
 <AdSense.Google
-  client='ca-pub-7292810486004926'
-  slot='7806394673'
+  client='Your Publisher Id'
+  slot='Ad slot Id'
 />
 
 // ads with custom format
 <AdSense.Google
-  client='ca-pub-7292810486004926'
-  slot='7806394673'
+  client='Your Publisher Id'
+  slot='Ad slot Id'
   style={{ width: 500, height: 300, float: 'left' }}
   format=''
 />
 
 // responsive and native ads
 <AdSense.Google
-  client='ca-pub-7292810486004926'
-  slot='7806394673'
+  client='Your Publisher Id'
+  slot='Ad slot Id'
   style={{ display: 'block' }}
   layout='in-article'
   format='fluid'
@@ -47,8 +47,8 @@ import AdSense from 'react-adsense';
 
 // auto full width responsive ads
 <AdSense.Google
-  client='ca-pub-7292810486004926'
-  slot='7806394673'
+  client='Your Publisher Id'
+  slot='Ad slot Id'
   style={{ display: 'block' }}
   format='auto'
   responsive='true'
