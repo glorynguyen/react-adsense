@@ -22,7 +22,7 @@ Before use Google AdSense, you should add the `script` at the end of HTML.
 
 ```jsx
 import React from 'react';
-import AdSense from 'react-adsense';
+import AdSense from 'react-adsense-ad';
 
 // ads with no set-up
 <AdSense.Google
