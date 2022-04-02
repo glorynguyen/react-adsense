@@ -1,6 +1,6 @@
 {
   "name": "react-adsense-ads",
-  "version": "3.5.0",
+  "version": "3.5.1",
   "description": "A Simple React component for Google AdSense ads.",
   "main": "lib/index.js",
   "scripts": {
