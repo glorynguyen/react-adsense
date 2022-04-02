@@ -1,15 +1,10 @@
-# react-adsense-ad
+# react-adsense-ads
 
-> react-adsense-ad is a React-component for Google AdSense advertisement.
-
-[![Build Status](https://travis-ci.org/aj-anuragjain/react-adsense.svg?branch=master)](https://travis-ci.org/aj-anuragjain/react-adsense)
-[![npm](https://img.shields.io/npm/v/react-adsense-ad.svg)](https://www.npmjs.com/package/react-adsense-ad)
-[![npm](https://img.shields.io/npm/l/react-adsense-ad.svg)](https://www.npmjs.com/package/react-adsense-ad)
-
+> react-adsense-ads is a React-component for Google AdSense advertisement.
 
 # 1. Install
 
-> **npm install --save react-adsense-ad**
+> **npm install --save react-adsense-ads**
 
 Before use Google AdSense, you should add the `script` at the end of HTML.
 
@@ -22,7 +17,7 @@ Before use Google AdSense, you should add the `script` at the end of HTML.
 
 ```jsx
 import React from 'react';
-import AdSense from 'react-adsense-ad';
+import AdSense from 'react-adsense-ads';
 
 // ads with no set-up
 <AdSense.Google
@@ -74,4 +69,4 @@ import AdSense from 'react-adsense-ad';
 
 # LICENSE
 
-MIT@[aj-anuragjain](https://github.com/aj-anuragjain).
+MIT@[glorynguyen](https://github.com/glorynguyen).
